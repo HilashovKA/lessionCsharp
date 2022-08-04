@@ -1,5 +1,6 @@
 ﻿Console.Clear();
-int number = 5;
+System.Console.Write("Введите число ");
+int number = Convert.ToInt32(Console.ReadLine());
 int result = number*number;
+System.Console.Write("Квадрат числа равен ");
 Console.WriteLine(result);
-
